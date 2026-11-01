@@ -48,7 +48,19 @@
   <img alt="C" src="https://img.shields.io/badge/C-171914?style=for-the-badge&logo=c&logoColor=F7F1E5" />
 </p>
 
-## 03 / NOW
+## 03 / LIVE SIGNAL
+
+<img src="assets/profile-stats.svg" width="100%" alt="Live GitHub statistics for Deng Rui" />
+
+<img src="assets/language-map.svg" width="100%" alt="Language distribution across public source repositories" />
+
+<img src="assets/momentum.svg" width="100%" alt="Contribution streaks and recent daily activity" />
+
+<p align="center">
+  <sub>Account statistics, language data, and contribution momentum refresh automatically every day through GitHub Actions.</sub>
+</p>
+
+## 04 / NOW
 
 > **Building** localization infrastructure and agent-friendly desktop tools.<br />
 > **Learning** Rust systems, local-first architecture, and interface craft.<br />
@@ -62,11 +74,14 @@
     <img alt="Latest Cursor i18n zh release" src="https://img.shields.io/github/v/release/svipm/cursor-i18n-zh?style=for-the-badge&label=RELEASE&color=FF5C35&logo=github&logoColor=F7F1E5" />
   </a>
   <a href="https://github.com/svipm/cursor-i18n-zh/stargazers">
-    <img alt="Cursor i18n zh stars" src="https://img.shields.io/github/stars/svipm/cursor-i18n-zh?style=for-the-badge&label=STARS&color=B8F26E&logo=github&logoColor=171914" />
+    <img alt="Star Cursor i18n zh" src="https://img.shields.io/github/stars/svipm/cursor-i18n-zh?style=for-the-badge&label=STAR%20THE%20PROJECT&color=B8F26E&logo=github&logoColor=171914" />
+  </a>
+  <a href="https://github.com/svipm">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/svipm?style=for-the-badge&label=FOLLOWERS&color=171914&logo=github&logoColor=F7F1E5" />
   </a>
 </p>
 
-## 04 / CONTRIBUTION MAP
+## 05 / CONTRIBUTION MAP
 
 <p align="center">
   <picture>
