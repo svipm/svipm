@@ -2,7 +2,7 @@
 
 # 我的 Star 项目库
 
-**83 个收藏项目，按主要用途分类整理。**
+**81 个收藏项目，按主要用途分类整理。**
 
 <sub>最后整理：2026-11-01 · 每个项目仅归入一个主分类</sub>
 
@@ -17,7 +17,7 @@
 | 编号 | 分类 | 数量 |
 |:---:|---|---:|
 | 01 | [AI 编程与 Agent](#category-01) |  2 |
-| 02 | [安全、逆向与红队](#category-02) | 22 |
+| 02 | [安全、逆向与红队](#category-02) | 20 |
 | 03 | [AI 多媒体创作](#category-03) |  6 |
 | 04 | [微信、小程序与协议自动化](#category-04) |  5 |
 | 05 | [网络代理、浏览器与隐私](#category-05) | 17 |
@@ -35,7 +35,7 @@
 
 <sub>2 个项目</sub>
 
-- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,188 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
+- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,189 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
 - **[Jia-Ethan/keysmith-switch](https://github.com/Jia-Ethan/keysmith-switch)** · `Rust` · ★ 403 — Keysmith 提示词和指令配置的桌面切换器，用于管理不同人格或工作配置。
 
 ---
@@ -46,21 +46,19 @@
 
 逆向工程、JS/小程序分析、代码审计、CTF、渗透测试、红队与安全 Skills。
 
-<sub>22 个项目</sub>
+<sub>20 个项目</sub>
 
 ### 逆向工程与代码分析
 
-- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,928 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
+- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,940 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
 - **[wux1an/wxapkg](https://github.com/wux1an/wxapkg)** · `Vue` · ★ 4,336 — 跨平台微信小程序反编译 GUI，支持 wxapkg 扫描、解密和解包。
 - **[biggerstar/wedecode](https://github.com/biggerstar/wedecode)** · `TypeScript` · ★ 3,357 — 微信小程序 wxapkg 包自动化还原工具，可用于源码恢复和线上代码安全审计，支持 Windows、macOS、Linux。
 - **[zhizhuodemao/js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp)** · `TypeScript` · ★ 3,030 — 面向 AI Agent 的 JS 逆向 MCP Server，支持有头 Chrome 调试、断点、网络/WebSocket 分析、反检测和页面补丁。
 - **[vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp)** · `TypeScript` · ★ 2,095 — 搜索优先、带 Profile 的 AI 逆向工作台，在一个 MCP Server 中集成大量工具和领域能力。
 - **[angusdevgo/Seep-Reverse-Lab](https://github.com/angusdevgo/Seep-Reverse-Lab)** · `Lua` · ★ 2,021 — Agent 原生多平台逆向工程平台，同时提供 CWE-602 客户端授权安全审计工作台。
-- **[LING71671/open-reverselab](https://github.com/LING71671/open-reverselab)** · `Python` · ★ 1,327 — 开源 AI 逆向 Agent 平台和 MCP Server，接入 Ghidra、Frida、x64dbg、Rizin，覆盖 PE/APK/二进制、CTF 和恶意样本分析。
 - **[echo094/decode-js](https://github.com/echo094/decode-js)** · `JavaScript` · ★ 1,069 — 基于 AST 的 JavaScript 混淆代码分析工具，用于理解和还原混淆后的 JS。
 - **[BuluBulugege/Free-BAI](https://github.com/BuluBulugege/Free-BAI)** · `TypeScript` · ★ 300 — 逆向 BankOfAI 的前端认证和注册流程，自动创建钱包、领取额度、生成 API Key 池，并通过统一代理调用模型。
 - **[masterqiu01/cross-file-obfuscator](https://github.com/masterqiu01/cross-file-obfuscator)** · `Go` · ★ 185 — 基于 Go AST 的跨文件代码混淆工具，混淆后仍保持代码可编译、可执行。
-- **[vibe-coding-labs/zcodeReverseEngineering](https://github.com/vibe-coding-labs/zcodeReverseEngineering)** · `Python` · ★ 48 — 针对 ZCode 工具进行逆向分析的资料与代码仓库。
 
 ### 渗透测试与红队
 
@@ -93,7 +91,7 @@
 - **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** · `JavaScript` · ★ 5,840 — AI 短剧制作技能集合，覆盖角色拆解、改编大纲、场景道具、剧本和分镜，支持 Claude Code 与 Codex。
 - **[heshengtao/comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)** · `Python` · ★ 2,387 — ComfyUI 中的 LLM Agent 框架，集成 MCP、Omost、GPT-SoVITS、ChatTTS、OCR、FLUX 等能力，并支持大量模型和聊天平台。
 - **[leemysw/yovoice](https://github.com/leemysw/yovoice)** · `TypeScript` · ★ 2,013 — 本地 AI 音频和音乐工作室，支持 TTS、声音克隆、带歌词歌曲、多轨编曲，可离线运行。
-- **[shijue-aid/aid-studio](https://github.com/shijue-aid/aid-studio)** · `Java` · ★ 1,234 — 开源 AI 漫剧、短剧、电影和漫画创作平台，覆盖剧本、角色场景、分镜、图像视频、配音和成片预览。
+- **[shijue-aid/aid-studio](https://github.com/shijue-aid/aid-studio)** · `Java` · ★ 1,236 — 开源 AI 漫剧、短剧、电影和漫画创作平台，覆盖剧本、角色场景、分镜、图像视频、配音和成片预览。
 - **[yuqie6/ProductFlow](https://github.com/yuqie6/ProductFlow)** · `Python` · ★ 307 — 自托管 AI 文案、海报、图像和商品视觉工作流工作台，适合批量制作营销素材。
 
 ---
@@ -106,7 +104,7 @@
 
 <sub>5 个项目</sub>
 
-- **[sourcepro5/WeChatAgent](https://github.com/sourcepro5/WeChatAgent)** · `JavaScript` · ★ 2,193 — 把微信变成 AI 聊天伙伴和远程任务入口，支持好友/群聊人格、独立上下文以及已授权 DSH 工具调用。
+- **[sourcepro5/WeChatAgent](https://github.com/sourcepro5/WeChatAgent)** · `JavaScript` · ★ 2,194 — 把微信变成 AI 聊天伙伴和远程任务入口，支持好友/群聊人格、独立上下文以及已授权 DSH 工具调用。
 - **[SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI)** · `TypeScript` · ★ 1,959 — 自托管微信角色扮演对话服务，直连腾讯 iLink，使用远端 Redis、LLM、多节点和 Cloudflare Worker 负载均衡。
 - **[525815266/YYB-Go-Enhanced](https://github.com/525815266/YYB-Go-Enhanced)** · `Python` · ★ 603 — 应用宝协议服务，支持扫码登录、账号与 OpenID 管理、wx.login code 获取、Token 自动续期和 Docker/青龙部署。
 - **[uluckyXH/Chat-Codex](https://github.com/uluckyXH/Chat-Codex)** · `TypeScript` · ★ 213 — 把 Codex 接入微信和飞书，用于远程控制、审批、操控电脑和多渠道任务执行。
@@ -123,7 +121,7 @@
 <sub>17 个项目</sub>
 
 - **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)** · `Rust` · ★ 45,082 — Vercel Labs 提供的浏览器自动化 CLI，让 AI Agent 直接操作网页。
-- **[SagerNet/sing-box](https://github.com/SagerNet/sing-box)** · `Go` · ★ 39,498 — 通用代理平台，支持多种代理协议和网络转发能力。
+- **[SagerNet/sing-box](https://github.com/SagerNet/sing-box)** · `Go` · ★ 39,499 — 通用代理平台，支持多种代理协议和网络转发能力。
 - **[epiral/bb-browser](https://github.com/epiral/bb-browser)** · `TypeScript` · ★ 6,257 — 把浏览器变成 API，通过 CLI 和 MCP 让 AI Agent 使用已有登录状态控制 Chrome。
 - **[luestr/ProxyResource](https://github.com/luestr/ProxyResource)** · `Vim Snippet` · ★ 5,097 — Loon 资源库，收集插件、脚本和分流规则。
 - **[Moli-X/Resources](https://github.com/Moli-X/Resources)** · `JavaScript` · ★ 3,438 — 基于 Quantumult X、Loon 和 Surge 的配置重写、脚本与插件资源库。
@@ -185,7 +183,7 @@
 <sub>8 个项目</sub>
 
 - **[byoungd/up](https://github.com/byoungd/up)** · `JavaScript` · ★ 69,825 — 韩先凯的人生进阶指南，覆盖 AI、学习、创业、财富、爱情和长期成长，中英双语。
-- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,416 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
+- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,420 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
 - **[freeok/so-novel](https://github.com/freeok/so-novel)** · `Java` · ★ 8,866 — 小说和网文下载工具，用于搜索、下载和管理网络小说。
 - **[huamurui/zhihu-minus-minus](https://github.com/huamurui/zhihu-minus-minus)** · `TypeScript` · ★ 440 — 轻量、简洁的第三方知乎客户端。
 - **[infinityf4p/TiebaPure-iOS](https://github.com/infinityf4p/TiebaPure-iOS)** · `Swift` · ★ 337 — 原生 SwiftUI 构建的非官方贴吧 iOS 客户端，支持浏览、搜索、收藏、媒体查看和本地阅读记录。
