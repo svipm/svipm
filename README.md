@@ -94,5 +94,5 @@
 <br />
 
 <div align="center">
-  <sub>Designed for clarity. Built with care.</sub>
+  <sub>Designed for clarity. Built with care. · <a href="STARS.md">Star Library</a></sub>
 </div>
