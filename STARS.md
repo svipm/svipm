@@ -2,7 +2,7 @@
 
 # 我的 Star 项目库
 
-**135 个收藏项目，按主要用途分类整理。**
+**109 个收藏项目，按主要用途分类整理。**
 
 <sub>最后整理：2026-11-01 · 每个项目仅归入一个主分类</sub>
 
@@ -16,7 +16,7 @@
 
 | 编号 | 分类 | 数量 |
 |:---:|---|---:|
-| 01 | [AI 编程与 Agent](#category-01) |  28 |
+| 01 | [AI 编程与 Agent](#category-01) |   2 |
 | 02 | [模型接入与 API 网关](#category-02) |  26 |
 | 03 | [安全、逆向与红队](#category-03) |  22 |
 | 04 | [AI 多媒体创作](#category-04) |   6 |
@@ -34,36 +34,10 @@
 
 编程智能体、Agent 桌面端、提示词与 Skills、任务编排和代码理解工具。
 
-<sub>28 个项目</sub>
+<sub>2 个项目</sub>
 
-- **[farion1231/cc-switch](https://github.com/farion1231/cc-switch)** · `Rust` · ★ 150,768 — 跨平台 AI 编程客户端管理器，可统一切换 Claude Code、Codex、OpenCode、DeepSeek Harness 等工具的账号与配置。
-- **[stablyai/orca](https://github.com/stablyai/orca)** · `TypeScript` · ★ 112,048 — 多 Agent 编排工作台，支持并行 Git Worktree、桌面与手机联动、SSH、终端分屏、Design Mode 和代码审查。
-- **[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)** · `TypeScript` · ★ 76,111 — 为代码建立本地预索引知识图谱，帮助 Claude Code、Codex、Cursor 等 Agent 减少 Token 消耗和无效工具调用。
-- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,175 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** · `TypeScript` · ★ 53,153 — 多模型 AI 桌面工作台，把模型接入、Agent、知识库和生产力工具集中到一个客户端中。
-- **[sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** · `Python` · ★ 48,949 — 包含数千个可复用 Agent Skills 的合集，支持 Claude Code、Codex、Cursor 和 Gemini CLI 等客户端。
-- **[herdrdev/herdr](https://github.com/herdrdev/herdr)** · `Rust` · ★ 47,223 — 面向编码 Agent 的运行时和环境层，用于承载、组织和管理 Agent 的执行。
-- **[BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus)** · `Rust` · ★ 32,788 — Codex App 的增强工具，目标是补充能力并改善 Codex 与其他 AI Agent 的使用体验。
-- **[slopus/happy](https://github.com/slopus/happy)** · `Swift` · ★ 24,441 — 在一个应用中编排 Claude、Codex 和 Grok，支持复用已有订阅并统一管理会话。
-- **[getpaseo/paseo](https://github.com/getpaseo/paseo)** · `TypeScript` · ★ 22,679 — 从桌面和手机统一编排多个编码 Agent，适合同时管理多个任务与会话。
-- **[jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools)** · `Rust` · ★ 19,604 — 通用 AI IDE 账号管理工具，支持多账号切换、额度监控、自动唤醒和多开实例。
-- **[lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent)** · `Python` · ★ 14,380 — 自进化 Agent 项目，从较小的种子代码生长技能树，目标是降低 Token 消耗并获得更强的系统控制能力。
-- **[vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)** · `TypeScript` · ★ 7,565 — 本地优先的 AI 编程桌面端，结合 Electron、Rust 核心、Pi Agent Harness 和用户插件。
-- **[Jia-Ethan/codex-keysmith](https://github.com/Jia-Ethan/codex-keysmith)** · `Python` · ★ 4,787 — Codex 指令部署管理器，提供版本化、预览、权限清单、Hook 隔离、场景评估和恢复能力。
-- **[zhukunpenglinyutong/desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui)** · `TypeScript` · ★ 4,554 — 基于 Tauri 的多引擎 AI 编程桌面客户端，统一接入 Claude Code、Codex、Gemini、OpenCode 和 DeepSeek Harness。
-- **[yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X)** · `Rust` · ★ 4,360 — Codex 桌面端和 CLI 的可视化管理工具，支持 Provider/API 切换、会话同步、提示词、Skills/MCP 和 TOML 管理。
-- **[spacering-net/codeg](https://github.com/spacering-net/codeg)** · `Rust` · ★ 4,248 — 多 Agent 协同编码工作区，可聚合 Claude Code、Codex、OpenCode、Pi 等不同客户端的会话。
-- **[Kuddev/pebrel](https://github.com/Kuddev/pebrel)** · `Rust` · ★ 3,665 — Windows 原生 AI 终端模拟器，支持 GPU 加速、SSH、持久会话、分屏和 AI CLI 工作流。
-- **[Stack-Cairn/LiveAgent](https://github.com/Stack-Cairn/LiveAgent)** · `TypeScript` · ★ 2,244 — 可自定义和扩展的 AI Agent 桌面客户端，支持 WebUI 访问和插件式能力扩展。
-- **[omnimind-ai/OmniBot](https://github.com/omnimind-ai/OmniBot)** · `Dart` · ★ 2,077 — 运行在手机上的 AI Agent，可操作 Android 终端并执行多种移动端任务。
-- **[chen0416ccc-cpu/codex-windows-fast-patch-skill](https://github.com/chen0416ccc-cpu/codex-windows-fast-patch-skill)** · `PowerShell` · ★ 1,317 — 指导 Agent 修复 Codex Desktop 升级后失效的本地补丁和能力开关，包括 Computer Use、插件、汉化、Fast Mode 等。
-- **[ZiChuanLan/agent-purge](https://github.com/ZiChuanLan/agent-purge)** · `JavaScript` · ★ 946 — 为 Codex、Claude、OpenCode、Grok 等多个编码 Agent 替换或注入系统提示词的本地 Web 控制台。
-- **[useLexora/Lexora](https://github.com/useLexora/Lexora)** · `TypeScript` · ★ 653 — 以桌面为核心的个人 AI Agent 工作台，强调执行真实世界任务，而不只是包装模型聊天。
-- **[sqfcyily/deva](https://github.com/sqfcyily/deva)** · `TypeScript` · ★ 573 — 对话式 AI Agent 助手，把 Agent 能力装进聊天界面，降低配置和使用门槛。
+- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,174 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
 - **[Jia-Ethan/keysmith-switch](https://github.com/Jia-Ethan/keysmith-switch)** · `Rust` · ★ 403 — Keysmith 提示词和指令配置的桌面切换器，用于管理不同人格或工作配置。
-- **[Jia-Ethan/zcode-keysmith](https://github.com/Jia-Ethan/zcode-keysmith)** · `Python` · ★ 363 — ZCode App 的系统角色入口与指令管理工具，用于控制 Agent 的指令注入方式。
-- **[Kaka-cheaper/codeSee](https://github.com/Kaka-cheaper/codeSee)** · `TypeScript` · ★ 60 — 把项目功能逻辑可视化成语义流程图，帮助开发者理解代码故事，而不是只看调用图或导入关系。
-- **[AIsa-team/agent-foyer](https://github.com/AIsa-team/agent-foyer)** · `TypeScript` · ★ 6 — 基于 MCP 的 Agent 工作空间，为 Agent 提供身份、上下文、资源、护栏和部署入口。
 
 ---
 
@@ -78,8 +52,8 @@
 - **[router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)** · `Go` · ★ 57,163 — 把 Antigravity、ChatGPT Codex、Claude Code、Grok Build 等服务包装成 OpenAI、Gemini、Claude 或 Codex 兼容 API。
 - **[QuantumNous/new-api](https://github.com/QuantumNous/new-api)** · `Go` · ★ 51,118 — 可自托管的 LLM 网关，兼容 OpenAI、Claude、Gemini API，支持模型路由、权限、用量和成本核算。
 - **[decolua/9router](https://github.com/decolua/9router)** · `JavaScript` · ★ 31,787 — 把 Claude Code、Codex、Cursor 等客户端接入多个模型提供商，支持自动回退和 Token 优化。
-- **[yetone/magpie](https://github.com/yetone/magpie)** · `Go` · ★ 27,320 — 菜单栏模型路由器，可把 Codex、Claude Code 等 Agent 接到 DeepSeek、Kimi 等不同模型。
-- **[lidge-jun/opencodex](https://github.com/lidge-jun/opencodex)** · `TypeScript` · ★ 18,127 — 面向 OpenAI Codex 和 Claude Code 的通用模型代理，让它们可以使用 Claude、Gemini、DeepSeek、Ollama 等任意 LLM。
+- **[yetone/magpie](https://github.com/yetone/magpie)** · `Go` · ★ 27,321 — 菜单栏模型路由器，可把 Codex、Claude Code 等 Agent 接到 DeepSeek、Kimi 等不同模型。
+- **[lidge-jun/opencodex](https://github.com/lidge-jun/opencodex)** · `TypeScript` · ★ 18,128 — 面向 OpenAI Codex 和 Claude Code 的通用模型代理，让它们可以使用 Claude、Gemini、DeepSeek、Ollama 等任意 LLM。
 - **[chenyme/grok2api](https://github.com/chenyme/grok2api)** · `Go` · ★ 7,873 — 为 Grok Build、Grok Web 和 Grok Console 提供多账号 API 网关。
 - **[looplj/axonhub](https://github.com/looplj/axonhub)** · `Go` · ★ 5,419 — 开源 AI Gateway，可用统一 SDK 接入大量 LLM，并内置故障转移、负载均衡、成本控制和链路追踪。
 - **[QLHazyCoder/FlowPilot](https://github.com/QLHazyCoder/FlowPilot)** · `JavaScript` · ★ 5,189 — Chrome 扩展，用于自动注册或上传 GPT Codex、Kiro、Grok 等账号。
@@ -114,13 +88,13 @@
 
 ### 逆向工程与代码分析
 
-- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,898 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
+- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,914 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
 - **[wux1an/wxapkg](https://github.com/wux1an/wxapkg)** · `Vue` · ★ 4,336 — 跨平台微信小程序反编译 GUI，支持 wxapkg 扫描、解密和解包。
 - **[biggerstar/wedecode](https://github.com/biggerstar/wedecode)** · `TypeScript` · ★ 3,357 — 微信小程序 wxapkg 包自动化还原工具，可用于源码恢复和线上代码安全审计，支持 Windows、macOS、Linux。
 - **[zhizhuodemao/js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp)** · `TypeScript` · ★ 3,030 — 面向 AI Agent 的 JS 逆向 MCP Server，支持有头 Chrome 调试、断点、网络/WebSocket 分析、反检测和页面补丁。
 - **[vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp)** · `TypeScript` · ★ 2,095 — 搜索优先、带 Profile 的 AI 逆向工作台，在一个 MCP Server 中集成大量工具和领域能力。
 - **[angusdevgo/Seep-Reverse-Lab](https://github.com/angusdevgo/Seep-Reverse-Lab)** · `Lua` · ★ 2,021 — Agent 原生多平台逆向工程平台，同时提供 CWE-602 客户端授权安全审计工作台。
-- **[LING71671/open-reverselab](https://github.com/LING71671/open-reverselab)** · `Python` · ★ 1,326 — 开源 AI 逆向 Agent 平台和 MCP Server，接入 Ghidra、Frida、x64dbg、Rizin，覆盖 PE/APK/二进制、CTF 和恶意样本分析。
+- **[LING71671/open-reverselab](https://github.com/LING71671/open-reverselab)** · `Python` · ★ 1,327 — 开源 AI 逆向 Agent 平台和 MCP Server，接入 Ghidra、Frida、x64dbg、Rizin，覆盖 PE/APK/二进制、CTF 和恶意样本分析。
 - **[echo094/decode-js](https://github.com/echo094/decode-js)** · `JavaScript` · ★ 1,069 — 基于 AST 的 JavaScript 混淆代码分析工具，用于理解和还原混淆后的 JS。
 - **[BuluBulugege/Free-BAI](https://github.com/BuluBulugege/Free-BAI)** · `TypeScript` · ★ 300 — 逆向 BankOfAI 的前端认证和注册流程，自动创建钱包、领取额度、生成 API Key 池，并通过统一代理调用模型。
 - **[masterqiu01/cross-file-obfuscator](https://github.com/masterqiu01/cross-file-obfuscator)** · `Go` · ★ 185 — 基于 Go AST 的跨文件代码混淆工具，混淆后仍保持代码可编译、可执行。
@@ -157,7 +131,7 @@
 - **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** · `JavaScript` · ★ 5,840 — AI 短剧制作技能集合，覆盖角色拆解、改编大纲、场景道具、剧本和分镜，支持 Claude Code 与 Codex。
 - **[heshengtao/comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)** · `Python` · ★ 2,387 — ComfyUI 中的 LLM Agent 框架，集成 MCP、Omost、GPT-SoVITS、ChatTTS、OCR、FLUX 等能力，并支持大量模型和聊天平台。
 - **[leemysw/yovoice](https://github.com/leemysw/yovoice)** · `TypeScript` · ★ 2,013 — 本地 AI 音频和音乐工作室，支持 TTS、声音克隆、带歌词歌曲、多轨编曲，可离线运行。
-- **[shijue-aid/aid-studio](https://github.com/shijue-aid/aid-studio)** · `Java` · ★ 1,233 — 开源 AI 漫剧、短剧、电影和漫画创作平台，覆盖剧本、角色场景、分镜、图像视频、配音和成片预览。
+- **[shijue-aid/aid-studio](https://github.com/shijue-aid/aid-studio)** · `Java` · ★ 1,234 — 开源 AI 漫剧、短剧、电影和漫画创作平台，覆盖剧本、角色场景、分镜、图像视频、配音和成片预览。
 - **[yuqie6/ProductFlow](https://github.com/yuqie6/ProductFlow)** · `Python` · ★ 307 — 自托管 AI 文案、海报、图像和商品视觉工作流工作台，适合批量制作营销素材。
 
 ---
@@ -172,7 +146,7 @@
 
 - **[sourcepro5/WeChatAgent](https://github.com/sourcepro5/WeChatAgent)** · `JavaScript` · ★ 2,193 — 把微信变成 AI 聊天伙伴和远程任务入口，支持好友/群聊人格、独立上下文以及已授权 DSH 工具调用。
 - **[SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI)** · `TypeScript` · ★ 1,959 — 自托管微信角色扮演对话服务，直连腾讯 iLink，使用远端 Redis、LLM、多节点和 Cloudflare Worker 负载均衡。
-- **[525815266/YYB-Go-Enhanced](https://github.com/525815266/YYB-Go-Enhanced)** · `Python` · ★ 602 — 应用宝协议服务，支持扫码登录、账号与 OpenID 管理、wx.login code 获取、Token 自动续期和 Docker/青龙部署。
+- **[525815266/YYB-Go-Enhanced](https://github.com/525815266/YYB-Go-Enhanced)** · `Python` · ★ 603 — 应用宝协议服务，支持扫码登录、账号与 OpenID 管理、wx.login code 获取、Token 自动续期和 Docker/青龙部署。
 - **[uluckyXH/Chat-Codex](https://github.com/uluckyXH/Chat-Codex)** · `TypeScript` · ★ 213 — 把 Codex 接入微信和飞书，用于远程控制、审批、操控电脑和多渠道任务执行。
 - **[lcmovie/YYB-GO-Script-i](https://github.com/lcmovie/YYB-GO-Script-i)** · `Python` · ★ 176 — 适配 YYB-Go-Enhanced 的青龙、呆呆和 Arcadia 面板脚本订阅仓库。
 
@@ -186,7 +160,7 @@
 
 <sub>17 个项目</sub>
 
-- **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)** · `Rust` · ★ 45,081 — Vercel Labs 提供的浏览器自动化 CLI，让 AI Agent 直接操作网页。
+- **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)** · `Rust` · ★ 45,082 — Vercel Labs 提供的浏览器自动化 CLI，让 AI Agent 直接操作网页。
 - **[SagerNet/sing-box](https://github.com/SagerNet/sing-box)** · `Go` · ★ 39,498 — 通用代理平台，支持多种代理协议和网络转发能力。
 - **[epiral/bb-browser](https://github.com/epiral/bb-browser)** · `TypeScript` · ★ 6,257 — 把浏览器变成 API，通过 CLI 和 MCP 让 AI Agent 使用已有登录状态控制 Chrome。
 - **[luestr/ProxyResource](https://github.com/luestr/ProxyResource)** · `Vim Snippet` · ★ 5,097 — Loon 资源库，收集插件、脚本和分流规则。
@@ -216,12 +190,12 @@
 
 - **[subframe7536/maple-font](https://github.com/subframe7536/maple-font)** · `Python` · ★ 29,601 — Maple Mono 开源等宽字体，提供圆角、连字、Nerd Font 图标、中文等宽和中英文 2:1 对齐。
 - **[komi-store/komi-store](https://github.com/komi-store/komi-store)** · `Kotlin` · ★ 20,198 — 面向开发者的免费开源应用商店，可浏览、发现并一键安装 GitHub、Codeberg、Forgejo 的 Release。
-- **[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)** · `Dart` · ★ 20,109 — 哔哩哔哩第三方客户端 PiliPlus，提供跨平台 B 站客户端体验。
+- **[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)** · `Dart` · ★ 20,110 — 哔哩哔哩第三方客户端 PiliPlus，提供跨平台 B 站客户端体验。
 - **[srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar)** · `C#` · ★ 14,989 — 把 Everything 文件搜索集成到 Windows 任务栏，快速搜索本机文件和文件夹。
 - **[NSRingo/iRingo](https://github.com/NSRingo/iRingo)** · `未标注` · ★ 10,636 — 用于补全和集成 Apple 功能与服务的项目，通常以系统配置或增强模块形式使用。
 - **[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian)** · `Rust` · ★ 7,430 — 用 Rust 编写的拼音输入法，在候选词旁显示正在学习语言的翻译。
 - **[nakixii/Magisk_AsoulOpt](https://github.com/nakixii/Magisk_AsoulOpt)** · `Shell` · ★ 2,746 — Android 游戏线程调整程序，面向主流和小众游戏优化线程调度，可作为 Magisk 模块使用。
-- **[Lingyan000/fluxdo](https://github.com/Lingyan000/fluxdo)** · `Dart` · ★ 2,537 — Linux.do 的第三方客户端，提供更原生的社区浏览体验。
+- **[Lingyan000/fluxdo](https://github.com/Lingyan000/fluxdo)** · `Dart` · ★ 2,538 — Linux.do 的第三方客户端，提供更原生的社区浏览体验。
 - **[webhtv/webhtv](https://github.com/webhtv/webhtv)** · `Java` · ★ 1,855 — 基于 FongMi 二次开发的 WebHomeTV，增强 WebHome 自定义首页、Native SDK、网盘检测和 Nostr 推荐。
 - **[daimiaopeng/coolapk-desktop](https://github.com/daimiaopeng/coolapk-desktop)** · `Vue` · ★ 1,689 — 酷安跨平台桌面版客户端，用于在电脑上浏览和使用酷安内容。
 - **[scholay-xsime/xsime](https://github.com/scholay-xsime/xsime)** · `Swift` · ★ 1,154 — 基于 Rime 的跨平台输入法和文本工作台，面向更高自由度的中文输入与文本处理。
@@ -249,7 +223,7 @@
 <sub>8 个项目</sub>
 
 - **[byoungd/up](https://github.com/byoungd/up)** · `JavaScript` · ★ 69,825 — 韩先凯的人生进阶指南，覆盖 AI、学习、创业、财富、爱情和长期成长，中英双语。
-- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,412 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
+- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,414 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
 - **[freeok/so-novel](https://github.com/freeok/so-novel)** · `Java` · ★ 8,865 — 小说和网文下载工具，用于搜索、下载和管理网络小说。
 - **[huamurui/zhihu-minus-minus](https://github.com/huamurui/zhihu-minus-minus)** · `TypeScript` · ★ 440 — 轻量、简洁的第三方知乎客户端。
 - **[infinityf4p/TiebaPure-iOS](https://github.com/infinityf4p/TiebaPure-iOS)** · `Swift` · ★ 337 — 原生 SwiftUI 构建的非官方贴吧 iOS 客户端，支持浏览、搜索、收藏、媒体查看和本地阅读记录。
