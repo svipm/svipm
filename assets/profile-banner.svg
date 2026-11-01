@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Deng Rui - software builder</title>
+  <desc id="desc">A warm editorial banner introducing Deng Rui, a student and open-source builder from Guangdong, China.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1E5"/>
+      <stop offset="1" stop-color="#E9DDC9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#171914" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="26"/>
+    </clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#171914" flood-opacity=".14"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#paper)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+
+    <circle cx="1030" cy="153" r="176" fill="none" stroke="#171914" stroke-opacity=".08" stroke-width="34"/>
+    <path d="M858 0V360M1179 0V360" stroke="#171914" stroke-opacity=".09"/>
+    <path d="M0 286H1200" stroke="#171914" stroke-opacity=".09"/>
+
+    <g filter="url(#shadow)">
+      <circle cx="1025" cy="151" r="98" fill="#B8F26E"/>
+    </g>
+    <circle cx="1025" cy="151" r="120" fill="none" stroke="#171914" stroke-width="1.5" stroke-dasharray="6 12" opacity=".55">
+      <animateTransform attributeName="transform" type="rotate" from="0 1025 151" to="360 1025 151" dur="36s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1122" cy="84" r="11" fill="#FF5C35"/>
+    <circle cx="1122" cy="84" r="21" fill="none" stroke="#FF5C35" stroke-opacity=".35"/>
+    <path d="M917 239C953 212 970 196 1004 196C1048 196 1073 225 1117 204" fill="none" stroke="#171914" stroke-width="2"/>
+    <path d="M1109 196L1119 204L1108 211" fill="none" stroke="#171914" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1025" y="170" fill="#171914" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" text-anchor="middle">R</text>
+    <text x="1025" y="194" fill="#171914" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="2.4" text-anchor="middle">MAKE / THINK</text>
+
+    <rect x="72" y="52" width="34" height="34" fill="#FF5C35"/>
+    <text x="122" y="75" fill="#5C6157" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2.5">PROFILE / OPEN SOURCE / 2026</text>
+    <rect x="72" y="105" width="54" height="7" fill="#171914"/>
+
+    <text x="68" y="209" fill="#171914" font-family="Georgia, 'Times New Roman', serif" font-size="108" font-weight="700" letter-spacing="-4">DENG RUI</text>
+    <text x="73" y="252" fill="#4F544A" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="2.1">AI TOOLS / DESKTOP APPS / DEVELOPER EXPERIENCE</text>
+
+    <rect x="0" y="310" width="1200" height="50" fill="#171914"/>
+    <circle cx="86" cy="335" r="5" fill="#B8F26E"/>
+    <text x="104" y="340" fill="#F7F1E5" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2">STUDENT / OPEN-SOURCE BUILDER</text>
+    <text x="1128" y="340" fill="#B8F26E" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2" text-anchor="end">GUANGDONG, CN</text>
+  </g>
+</svg>
