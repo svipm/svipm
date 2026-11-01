@@ -2,7 +2,7 @@
 
 # 我的 Star 项目库
 
-**109 个收藏项目，按主要用途分类整理。**
+**83 个收藏项目，按主要用途分类整理。**
 
 <sub>最后整理：2026-11-01 · 每个项目仅归入一个主分类</sub>
 
@@ -16,15 +16,14 @@
 
 | 编号 | 分类 | 数量 |
 |:---:|---|---:|
-| 01 | [AI 编程与 Agent](#category-01) |   2 |
-| 02 | [模型接入与 API 网关](#category-02) |  26 |
-| 03 | [安全、逆向与红队](#category-03) |  22 |
-| 04 | [AI 多媒体创作](#category-04) |   6 |
-| 05 | [微信、小程序与协议自动化](#category-05) |   5 |
-| 06 | [网络代理、浏览器与隐私](#category-06) |  17 |
-| 07 | [桌面应用与系统工具](#category-07) |  22 |
-| 08 | [阅读、学习与生活](#category-08) |   8 |
-| 09 | [用途待确认](#category-09) |   1 |
+| 01 | [AI 编程与 Agent](#category-01) |  2 |
+| 02 | [安全、逆向与红队](#category-02) | 22 |
+| 03 | [AI 多媒体创作](#category-03) |  6 |
+| 04 | [微信、小程序与协议自动化](#category-04) |  5 |
+| 05 | [网络代理、浏览器与隐私](#category-05) | 17 |
+| 06 | [桌面应用与系统工具](#category-06) | 22 |
+| 07 | [阅读、学习与生活](#category-07) |  8 |
+| 08 | [用途待确认](#category-08) |  1 |
 
 ---
 
@@ -36,51 +35,14 @@
 
 <sub>2 个项目</sub>
 
-- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,174 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
+- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,188 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
 - **[Jia-Ethan/keysmith-switch](https://github.com/Jia-Ethan/keysmith-switch)** · `Rust` · ★ 403 — Keysmith 提示词和指令配置的桌面切换器，用于管理不同人格或工作配置。
 
 ---
 
 <a id="category-02"></a>
 
-## 02 / 模型接入与 API 网关
-
-多账号管理、OpenAI/Claude/Gemini 兼容网关、模型路由、额度与价格工具。
-
-<sub>26 个项目</sub>
-
-- **[router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)** · `Go` · ★ 57,163 — 把 Antigravity、ChatGPT Codex、Claude Code、Grok Build 等服务包装成 OpenAI、Gemini、Claude 或 Codex 兼容 API。
-- **[QuantumNous/new-api](https://github.com/QuantumNous/new-api)** · `Go` · ★ 51,118 — 可自托管的 LLM 网关，兼容 OpenAI、Claude、Gemini API，支持模型路由、权限、用量和成本核算。
-- **[decolua/9router](https://github.com/decolua/9router)** · `JavaScript` · ★ 31,787 — 把 Claude Code、Codex、Cursor 等客户端接入多个模型提供商，支持自动回退和 Token 优化。
-- **[yetone/magpie](https://github.com/yetone/magpie)** · `Go` · ★ 27,321 — 菜单栏模型路由器，可把 Codex、Claude Code 等 Agent 接到 DeepSeek、Kimi 等不同模型。
-- **[lidge-jun/opencodex](https://github.com/lidge-jun/opencodex)** · `TypeScript` · ★ 18,128 — 面向 OpenAI Codex 和 Claude Code 的通用模型代理，让它们可以使用 Claude、Gemini、DeepSeek、Ollama 等任意 LLM。
-- **[chenyme/grok2api](https://github.com/chenyme/grok2api)** · `Go` · ★ 7,873 — 为 Grok Build、Grok Web 和 Grok Console 提供多账号 API 网关。
-- **[looplj/axonhub](https://github.com/looplj/axonhub)** · `Go` · ★ 5,419 — 开源 AI Gateway，可用统一 SDK 接入大量 LLM，并内置故障转移、负载均衡、成本控制和链路追踪。
-- **[QLHazyCoder/FlowPilot](https://github.com/QLHazyCoder/FlowPilot)** · `JavaScript` · ★ 5,189 — Chrome 扩展，用于自动注册或上传 GPT Codex、Kiro、Grok 等账号。
-- **[qixing-jk/all-api-hub](https://github.com/qixing-jk/all-api-hub)** · `TypeScript` · ★ 5,040 — New API、Sub2API 等中转站的一站式账号中心，提供余额、用量、签到、密钥、比价和健康检查。
-- **[dimthink/PriceAI](https://github.com/dimthink/PriceAI)** · `TypeScript` · ★ 4,820 — AI 订阅和卡网渠道比价工具，聚合 ChatGPT、Claude、Gemini、Grok 等产品的价格、库存和购买链接。
-- **[linguo2625469/workbuddy2api-panel](https://github.com/linguo2625469/workbuddy2api-panel)** · `Go` · ★ 4,654 — 把腾讯 WorkBuddy 账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心任务并提供 Web 面板。
-- **[ding113/claude-code-hub](https://github.com/ding113/claude-code-hub)** · `TypeScript` · ★ 3,399 — Claude Code 与 Codex 的 API 代理服务，提供负载均衡、用户管理、额度统计和请求管理。
-- **[ardeyouxipianyi/workbuddy2api-hub](https://github.com/ardeyouxipianyi/workbuddy2api-hub)** · `Python` · ★ 3,344 — WorkBuddy 国内外多账号反代网关，兼容 Codex、Claude Code、DSH 和标准 OpenAI 客户端。
-- **[cita-777/metapi](https://github.com/cita-777/metapi)** · `TypeScript` · ★ 3,337 — 把多个 New API、One API、Sub2API 等中转站聚合为一个 API Key 和统一入口，并支持自动发现模型与成本路由。
-- **[TheSmallHanCat/flow2api](https://github.com/TheSmallHanCat/flow2api)** · `Python` · ★ 3,114 — 通过逆向账号池把 Flow/Banana Pro 能力包装成 API，支持负载均衡、令牌刷新、缓存和代理。
-- **[mmparko/dsh-purge](https://github.com/mmparko/dsh-purge)** · `JavaScript` · ★ 2,881 — DeepSeek Harness 提示词破限项目的镜像仓库，保留完整分支、标签和提交历史。
-- **[bestruirui/octopus](https://github.com/bestruirui/octopus)** · `TypeScript` · ★ 2,734 — 个人使用的 LLM API 聚合网关，把多个模型服务统一到一个入口中。
-- **[yexi-by/dsh-unrestricted](https://github.com/yexi-by/dsh-unrestricted)** · `JavaScript` · ★ 845 — DeepSeek Harness 提示词破限插件，适配 Web、桌面端多模式和工具调用。
-- **[TriDefender/zcode-api](https://github.com/TriDefender/zcode-api)** · `JavaScript` · ★ 523 — 通过复用 OAuth 登录把请求转发到 bigmodel.cn 或 z.ai 的反向代理，主要面向 coding plan 用量场景。
-- **[ThinkWatchProject/ThinkWatch-Lite](https://github.com/ThinkWatchProject/ThinkWatch-Lite)** · `TypeScript` · ★ 494 — 面向 Claude Code、Codex 等客户端的本地网关，可切换上游、隔离 API Key、拦截恶意工具调用并追踪请求。
-- **[pjpv/zcode-switch](https://github.com/pjpv/zcode-switch)** · `Rust` · ★ 490 — ZCode 多账号一键切换工具，支持额度展示、活动领取和加密导出。
-- **[Hello-Application-XH/HelloGML](https://github.com/Hello-Application-XH/HelloGML)** · `TypeScript` · ★ 335 — 把智谱清言网页版转换成 OpenAI、Claude、Gemini 兼容接口的 Cloudflare Worker 网关，支持多账号轮询。
-- **[WizisCool/oh-my-cpa](https://github.com/WizisCool/oh-my-cpa)** · `TypeScript` · ★ 294 — CLIProxyAPI 的自托管控制面和用量可观测后台，用于管理 Provider、客户端密钥、遥测和模型成本。
-- **[yetone/magpie-releases](https://github.com/yetone/magpie-releases)** · `Shell` · ★ 242 — Magpie 的签名构建产物发布仓库，用于下载官方构建版本。
-- **[rheodev/cpa-plugin-privacyfilter](https://github.com/rheodev/cpa-plugin-privacyfilter)** · `Go` · ★ 48 — CLIProxyAPI 的隐私过滤插件，在请求发往上游前检测并脱敏敏感文本。
-- **[ThinkWatchProject/ThinkWatch-Core](https://github.com/ThinkWatchProject/ThinkWatch-Core)** · `Rust` · ★ 2 — ThinkWatch 的 Rust 网关引擎，负责凭证脱敏、工具调用检查、规则路由和单次请求成本统计。
-
----
-
-<a id="category-03"></a>
-
-## 03 / 安全、逆向与红队
+## 02 / 安全、逆向与红队
 
 逆向工程、JS/小程序分析、代码审计、CTF、渗透测试、红队与安全 Skills。
 
@@ -88,7 +50,7 @@
 
 ### 逆向工程与代码分析
 
-- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,914 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
+- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,928 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
 - **[wux1an/wxapkg](https://github.com/wux1an/wxapkg)** · `Vue` · ★ 4,336 — 跨平台微信小程序反编译 GUI，支持 wxapkg 扫描、解密和解包。
 - **[biggerstar/wedecode](https://github.com/biggerstar/wedecode)** · `TypeScript` · ★ 3,357 — 微信小程序 wxapkg 包自动化还原工具，可用于源码恢复和线上代码安全审计，支持 Windows、macOS、Linux。
 - **[zhizhuodemao/js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp)** · `TypeScript` · ★ 3,030 — 面向 AI Agent 的 JS 逆向 MCP Server，支持有头 Chrome 调试、断点、网络/WebSocket 分析、反检测和页面补丁。
@@ -119,9 +81,9 @@
 
 ---
 
-<a id="category-04"></a>
+<a id="category-03"></a>
 
-## 04 / AI 多媒体创作
+## 03 / AI 多媒体创作
 
 短剧、漫剧、视频、图像、配音、音乐和可视化创作工作流。
 
@@ -136,9 +98,9 @@
 
 ---
 
-<a id="category-05"></a>
+<a id="category-04"></a>
 
-## 05 / 微信、小程序与协议自动化
+## 04 / 微信、小程序与协议自动化
 
 微信机器人、小程序协议、账号自动化与远程控制入口。
 
@@ -152,9 +114,9 @@
 
 ---
 
-<a id="category-06"></a>
+<a id="category-05"></a>
 
-## 06 / 网络代理、浏览器与隐私
+## 05 / 网络代理、浏览器与隐私
 
 代理网关、分流规则、指纹浏览器、定位工具和 AI 浏览器自动化。
 
@@ -180,9 +142,9 @@
 
 ---
 
-<a id="category-07"></a>
+<a id="category-06"></a>
 
-## 07 / 桌面应用与系统工具
+## 06 / 桌面应用与系统工具
 
 桌面客户端、输入法、字体、系统增强、远程管理和开发效率工具。
 
@@ -214,17 +176,17 @@
 
 ---
 
-<a id="category-08"></a>
+<a id="category-07"></a>
 
-## 08 / 阅读、学习与生活
+## 07 / 阅读、学习与生活
 
 阅读器、英语学习、题库、健身和长期学习资料。
 
 <sub>8 个项目</sub>
 
 - **[byoungd/up](https://github.com/byoungd/up)** · `JavaScript` · ★ 69,825 — 韩先凯的人生进阶指南，覆盖 AI、学习、创业、财富、爱情和长期成长，中英双语。
-- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,414 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
-- **[freeok/so-novel](https://github.com/freeok/so-novel)** · `Java` · ★ 8,865 — 小说和网文下载工具，用于搜索、下载和管理网络小说。
+- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,416 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
+- **[freeok/so-novel](https://github.com/freeok/so-novel)** · `Java` · ★ 8,866 — 小说和网文下载工具，用于搜索、下载和管理网络小说。
 - **[huamurui/zhihu-minus-minus](https://github.com/huamurui/zhihu-minus-minus)** · `TypeScript` · ★ 440 — 轻量、简洁的第三方知乎客户端。
 - **[infinityf4p/TiebaPure-iOS](https://github.com/infinityf4p/TiebaPure-iOS)** · `Swift` · ★ 337 — 原生 SwiftUI 构建的非官方贴吧 iOS 客户端，支持浏览、搜索、收藏、媒体查看和本地阅读记录。
 - **[o-Sakurajimamai-o/cet-practice](https://github.com/o-Sakurajimamai-o/cet-practice)** · `Python` · ★ 109 — 英语研习室，提供本地在线四六级和考研英语历年真题练习。
@@ -233,9 +195,9 @@
 
 ---
 
-<a id="category-09"></a>
+<a id="category-08"></a>
 
-## 09 / 用途待确认
+## 08 / 用途待确认
 
 仓库简介缺失，暂时无法可靠归类。
 
