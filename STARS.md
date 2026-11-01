@@ -2,7 +2,7 @@
 
 # 我的 Star 项目库
 
-**81 个收藏项目，按主要用途分类整理。**
+**75 个收藏项目，按主要用途分类整理。**
 
 <sub>最后整理：2026-11-01 · 每个项目仅归入一个主分类</sub>
 
@@ -18,12 +18,11 @@
 |:---:|---|---:|
 | 01 | [AI 编程与 Agent](#category-01) |  2 |
 | 02 | [安全、逆向与红队](#category-02) | 20 |
-| 03 | [AI 多媒体创作](#category-03) |  6 |
-| 04 | [微信、小程序与协议自动化](#category-04) |  5 |
-| 05 | [网络代理、浏览器与隐私](#category-05) | 17 |
-| 06 | [桌面应用与系统工具](#category-06) | 22 |
-| 07 | [阅读、学习与生活](#category-07) |  8 |
-| 08 | [用途待确认](#category-08) |  1 |
+| 03 | [微信、小程序与协议自动化](#category-03) |  5 |
+| 04 | [网络代理、浏览器与隐私](#category-04) | 17 |
+| 05 | [桌面应用与系统工具](#category-05) | 22 |
+| 06 | [阅读、学习与生活](#category-06) |  8 |
+| 07 | [用途待确认](#category-07) |  1 |
 
 ---
 
@@ -35,7 +34,7 @@
 
 <sub>2 个项目</sub>
 
-- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,189 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
+- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · `JavaScript` · ★ 55,202 — DeepSeek Harness 插件，宣称无需登录或 API Key 即可使用部分前沿模型；第三方免费服务存在稳定性和合规风险。
 - **[Jia-Ethan/keysmith-switch](https://github.com/Jia-Ethan/keysmith-switch)** · `Rust` · ★ 403 — Keysmith 提示词和指令配置的桌面切换器，用于管理不同人格或工作配置。
 
 ---
@@ -50,7 +49,7 @@
 
 ### 逆向工程与代码分析
 
-- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,940 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
+- **[morluto/rea](https://github.com/morluto/rea)** · `TypeScript` · ★ 416,960 — Agent 驱动的全能逆向工程平台，可分析应用行为并深入到原生二进制。
 - **[wux1an/wxapkg](https://github.com/wux1an/wxapkg)** · `Vue` · ★ 4,336 — 跨平台微信小程序反编译 GUI，支持 wxapkg 扫描、解密和解包。
 - **[biggerstar/wedecode](https://github.com/biggerstar/wedecode)** · `TypeScript` · ★ 3,357 — 微信小程序 wxapkg 包自动化还原工具，可用于源码恢复和线上代码安全审计，支持 Windows、macOS、Linux。
 - **[zhizhuodemao/js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp)** · `TypeScript` · ★ 3,030 — 面向 AI Agent 的 JS 逆向 MCP Server，支持有头 Chrome 调试、断点、网络/WebSocket 分析、反检测和页面补丁。
@@ -70,7 +69,7 @@
 
 ### CTF 与安全 Skills
 
-- **[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** · `PowerShell` · ★ 43,902 — 逆向、授权渗透和安全研究技能路由包，可自动选择工具链并积累经验库。
+- **[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** · `PowerShell` · ★ 43,903 — 逆向、授权渗透和安全研究技能路由包，可自动选择工具链并积累经验库。
 - **[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** · `Python` · ★ 35,375 — 大量结构化网络安全 Skills 的合集，映射多个安全框架，并支持主流 AI 编程客户端。
 - **[ljagiello/ctf-skills](https://github.com/ljagiello/ctf-skills)** · `Python` · ★ 3,597 — AI Agent 的 CTF 技能包，覆盖 Web 利用、二进制 Pwn、密码学、逆向、取证和 OSINT。
 - **[P4nda0s/reverse-skills](https://github.com/P4nda0s/reverse-skills)** · `未标注` · ★ 2,339 — 面向 Claude Code 的逆向工程 Skills 插件，用于组织和路由逆向分析能力。
@@ -81,24 +80,7 @@
 
 <a id="category-03"></a>
 
-## 03 / AI 多媒体创作
-
-短剧、漫剧、视频、图像、配音、音乐和可视化创作工作流。
-
-<sub>6 个项目</sub>
-
-- **[HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)** · `Vue` · ★ 20,106 — 开源 AI 短剧和漫剧创作平台，集成剧本、分镜、角色场景资产、图像生成、视频生成、无限画布和 Agent 工作流。
-- **[eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills)** · `JavaScript` · ★ 5,840 — AI 短剧制作技能集合，覆盖角色拆解、改编大纲、场景道具、剧本和分镜，支持 Claude Code 与 Codex。
-- **[heshengtao/comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)** · `Python` · ★ 2,387 — ComfyUI 中的 LLM Agent 框架，集成 MCP、Omost、GPT-SoVITS、ChatTTS、OCR、FLUX 等能力，并支持大量模型和聊天平台。
-- **[leemysw/yovoice](https://github.com/leemysw/yovoice)** · `TypeScript` · ★ 2,013 — 本地 AI 音频和音乐工作室，支持 TTS、声音克隆、带歌词歌曲、多轨编曲，可离线运行。
-- **[shijue-aid/aid-studio](https://github.com/shijue-aid/aid-studio)** · `Java` · ★ 1,236 — 开源 AI 漫剧、短剧、电影和漫画创作平台，覆盖剧本、角色场景、分镜、图像视频、配音和成片预览。
-- **[yuqie6/ProductFlow](https://github.com/yuqie6/ProductFlow)** · `Python` · ★ 307 — 自托管 AI 文案、海报、图像和商品视觉工作流工作台，适合批量制作营销素材。
-
----
-
-<a id="category-04"></a>
-
-## 04 / 微信、小程序与协议自动化
+## 03 / 微信、小程序与协议自动化
 
 微信机器人、小程序协议、账号自动化与远程控制入口。
 
@@ -112,9 +94,9 @@
 
 ---
 
-<a id="category-05"></a>
+<a id="category-04"></a>
 
-## 05 / 网络代理、浏览器与隐私
+## 04 / 网络代理、浏览器与隐私
 
 代理网关、分流规则、指纹浏览器、定位工具和 AI 浏览器自动化。
 
@@ -140,17 +122,17 @@
 
 ---
 
-<a id="category-06"></a>
+<a id="category-05"></a>
 
-## 06 / 桌面应用与系统工具
+## 05 / 桌面应用与系统工具
 
 桌面客户端、输入法、字体、系统增强、远程管理和开发效率工具。
 
 <sub>22 个项目</sub>
 
 - **[subframe7536/maple-font](https://github.com/subframe7536/maple-font)** · `Python` · ★ 29,601 — Maple Mono 开源等宽字体，提供圆角、连字、Nerd Font 图标、中文等宽和中英文 2:1 对齐。
-- **[komi-store/komi-store](https://github.com/komi-store/komi-store)** · `Kotlin` · ★ 20,198 — 面向开发者的免费开源应用商店，可浏览、发现并一键安装 GitHub、Codeberg、Forgejo 的 Release。
-- **[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)** · `Dart` · ★ 20,110 — 哔哩哔哩第三方客户端 PiliPlus，提供跨平台 B 站客户端体验。
+- **[komi-store/komi-store](https://github.com/komi-store/komi-store)** · `Kotlin` · ★ 20,197 — 面向开发者的免费开源应用商店，可浏览、发现并一键安装 GitHub、Codeberg、Forgejo 的 Release。
+- **[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)** · `Dart` · ★ 20,111 — 哔哩哔哩第三方客户端 PiliPlus，提供跨平台 B 站客户端体验。
 - **[srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar)** · `C#` · ★ 14,989 — 把 Everything 文件搜索集成到 Windows 任务栏，快速搜索本机文件和文件夹。
 - **[NSRingo/iRingo](https://github.com/NSRingo/iRingo)** · `未标注` · ★ 10,636 — 用于补全和集成 Apple 功能与服务的项目，通常以系统配置或增强模块形式使用。
 - **[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian)** · `Rust` · ★ 7,430 — 用 Rust 编写的拼音输入法，在候选词旁显示正在学习语言的翻译。
@@ -174,16 +156,16 @@
 
 ---
 
-<a id="category-07"></a>
+<a id="category-06"></a>
 
-## 07 / 阅读、学习与生活
+## 06 / 阅读、学习与生活
 
 阅读器、英语学习、题库、健身和长期学习资料。
 
 <sub>8 个项目</sub>
 
 - **[byoungd/up](https://github.com/byoungd/up)** · `JavaScript` · ★ 69,825 — 韩先凯的人生进阶指南，覆盖 AI、学习、创业、财富、爱情和长期成长，中英双语。
-- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,420 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
+- **[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)** · `JavaScript` · ★ 18,423 — 开源健身和自重训练记录应用，支持训练计划、动作记录、肌群统计，并可从 Strong、Hevy、FitNotes 导入。
 - **[freeok/so-novel](https://github.com/freeok/so-novel)** · `Java` · ★ 8,866 — 小说和网文下载工具，用于搜索、下载和管理网络小说。
 - **[huamurui/zhihu-minus-minus](https://github.com/huamurui/zhihu-minus-minus)** · `TypeScript` · ★ 440 — 轻量、简洁的第三方知乎客户端。
 - **[infinityf4p/TiebaPure-iOS](https://github.com/infinityf4p/TiebaPure-iOS)** · `Swift` · ★ 337 — 原生 SwiftUI 构建的非官方贴吧 iOS 客户端，支持浏览、搜索、收藏、媒体查看和本地阅读记录。
@@ -193,9 +175,9 @@
 
 ---
 
-<a id="category-08"></a>
+<a id="category-07"></a>
 
-## 08 / 用途待确认
+## 07 / 用途待确认
 
 仓库简介缺失，暂时无法可靠归类。
 
