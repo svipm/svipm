@@ -1,5 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
+import { starSummaries } from "./star-summaries.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const login = process.env.GITHUB_LOGIN || process.env.GITHUB_REPOSITORY_OWNER;
@@ -95,6 +96,7 @@ const categories = [
           "angusdevgo/Seep-Reverse-Lab",
           "vmoranv/jshookmcp",
           "vibe-coding-labs/zcodeReverseEngineering",
+          "BuluBulugege/Free-BAI",
         ],
       },
       {
@@ -211,7 +213,7 @@ const categories = [
   {
     title: "用途待确认",
     description: "仓库简介缺失，暂时无法可靠归类。",
-    repos: ["aleotoidayy/nghluan", "BuluBulugege/free-bai"],
+    repos: ["aleotoidayy/nghluan"],
   },
 ];
 
@@ -219,6 +221,13 @@ const starred = await fetchStarredRepositories();
 const repoMap = new Map(starred.map((repo) => [repo.full_name.toLowerCase(), repo]));
 const assigned = new Set();
 const sections = [];
+const missingSummaries = starred.filter(
+  (repo) => repo.owner.login !== login && !starSummaries[repo.full_name.toLowerCase()],
+);
+
+if (missingSummaries.length) {
+  console.warn(`Missing Chinese summaries: ${missingSummaries.map((repo) => repo.full_name).join(", ")}`);
+}
 
 for (const category of categories) {
   const groups = category.subgroups || [{ title: null, repos: category.repos }];
@@ -358,7 +367,7 @@ ${groups}`;
 
 > [!NOTE]
 > “安全、逆向与红队”包含逆向工程、JS/小程序分析、代码审计、CTF、渗透测试和安全 Skills。<br />
-> 一个项目可能同时涉及多个领域，这里按照它最核心的用途归类。
+> 一个项目可能同时涉及多个领域，这里按照它最核心的用途归类；每项都配有简短中文用途说明。
 
 ## 分类索引
 
@@ -381,8 +390,15 @@ ${categoryBlocks}
 function renderRepository(repo) {
   const language = repo.language || "未标注";
   const stars = new Intl.NumberFormat("en-US").format(repo.stargazers_count);
-  const description = sanitizeDescription(repo.description);
+  const description = sanitizeDescription(getSummary(repo));
   return `- **[${repo.full_name}](${repo.html_url})** · \`${language}\` · ★ ${stars}${description ? ` — ${description}` : ""}`;
+}
+
+function getSummary(repo) {
+  if (repo.owner.login === login) {
+    return "Cursor 与 Claude Desktop 的中文本地化工作台，强调版本识别、强制备份、一键汉化和原版恢复。";
+  }
+  return starSummaries[repo.full_name.toLowerCase()] || repo.description || "";
 }
 
 function sanitizeDescription(description) {
